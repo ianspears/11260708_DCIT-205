@@ -1,14 +1,15 @@
 body{
    background-color: aliceblue;
-   background-image: url(images/COMWEALTH.jpg);
+   background-color: rgb(175, 131, 123);
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
    background-size:cover;
 }
 .nav-links {
-  background-color: lightblue;
+  background-color: gray;
   opacity: 0.75;
+  
 }
 nav {
   display: flex;
@@ -26,22 +27,22 @@ nav {
 }
 
 .nav-links ul li a{
-  color:BLACK;
+  color:black;
   font-weight: 800;
   font-style: normal;
   font-size: larger;
 }
 
 .nav-links ul li a:hover{
-  color:blue;
+  color:white;
 }
 
   .text-box{
-    background-color: white;
+    background-color: rgb(92, 92, 118);
     width: 100%;
     height: 235px;
     text-align: center;
-    color:black;
+    color:white;
   }
 
   .text-box h1{
@@ -67,7 +68,7 @@ nav {
 
   .first-link:hover{
     border:1px solid white;
-    background-color: orange;
+    background-color: tomato;
     transition: 1s;
   }
     
@@ -92,26 +93,27 @@ p{
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  padding: 10px;
-}
+  padding: 10px;  
+ } 
   .row{
-    margin-top: 5%;
+    margin-left: 15%;
+    margin: 10%;
     display: flex;
     justify-content: space-between;
   }
   .course-short{
     flex-basis: 31%;
-    background: #f1e4e4;
+    background: teal;
     border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: border-box;
+   box-sizing: border-box;                   
     cursor: pointer;
     transition: 0.5s;
   }
   .course-undergrad{
     flex-basis: 31%;
-    background: #f1e4e4;
+    background: teal;
     border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -121,7 +123,7 @@ p{
   }
   .course-mphil{
     flex-basis: 31%;
-    background: #f1e4e4;
+    background: teal;
     border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -131,7 +133,7 @@ p{
   }
   .course-phd{
     flex-basis: 31%;
-    background: #f1e4e4;
+    background: teal;
     border-radius: 15px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -142,24 +144,24 @@ p{
   }
 h3{
   text-align: center;
-  font-weight: 600;
+  font-weight: 800;
   margin: 10%;
 }
 .course-short:hover{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  background-color: blue;
+  background-color: rgb(151, 222, 135);
 }
 .course-undergrad:hover{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  background-color: blue;
+  background-color: rgb(151, 222, 135);
 }
 .course-mphil:hover{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  background-color: blue;
+  background-color: rgb(151, 222, 135);
 }
 .course-phd:hover{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  background-color: blue;
+  background-color: rgb(151, 222, 135);
 }
 @media(max-width:700px){
   .row{
@@ -170,12 +172,13 @@ h3{
 /*------Short courses--------*/
 .short-course{
   background-attachment: fixed;
-  background-color: white;
+  background-color: turquoise;
   margin: auto;
   text-align:center;
   padding-top: 50px;
 }
 .ccna{
+  display: block;
   flex-basis:32%;
   border-radius: 10px;
   margin-bottom:30px;
@@ -192,7 +195,8 @@ h3{
   transition: 1s;
 }
 .layer {
-  background: rgb(49, 49, 124);
+  background: rgb(44, 42, 88);
+  border-radius: 15px;
   height: 50%;
   width: 100%;
   color: white;
@@ -254,11 +258,15 @@ h3{
   opacity: 0.5;
   transition: 1s;
 }
+
+
+
+/*-----------------------call to action (cta)------------*/
 .cta{
-  background-color: violet;
+  background-color: white;
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/under_grad_main.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join4.jpeg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -382,18 +390,193 @@ font-weight: 700;
   outline:none;
   background:#f0f0f0;
 }
-.comment-form{
-  margin:10px 0;
+
+
+
+
+/*----------------Contact US Page-------------*/
+.location{
+  width: 80%;
+  margin:auto;
+  padding: auto;
+}
+.location iframe{
+  width: 100%;
+}
+.contact-us{
+  background-color: white;
+  text-align: center;
+  flex-basis: 48%;
+  margin: auto;
+}
+
+.contact-col{
+flex-basis:48%;
+margin-bottom: 30px;
+margin-left: 400px;
+}
+
+/*---------------nae-----------------*/
+
+.upcoming{
+  display: block;
+  box-sizing: border-box;
+  color:#777;
+  font-family:"Poppins", sans-serif;
+  font-weight: 300;
+  position:relative;
+  padding:20px 0px;
+  background-color: rgb(208, 202, 202);
+  text-align: center;
+  border-radius: 30px;  
+}
+.nae{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join4.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.nae h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .nae h1{
+    font-size: 24px;
+  }
+}
+
+/* -----------FACULTY AND STAFF-------- */
+.fast{
+  background-color:rgb(126, 121, 121);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.fas{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width:700px){
+  .fas{
+    flex-direction: column;
+  }
+}
+
+/* prospective student  */
+
+.upcoming:hover{
+opacity: 0.9;
+}
+.aca1{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join1.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca1 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca1 h1{
+    font-size: 24px;
+  }
+}
+
+.aca2{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join2.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca2 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca2 h1{
+    font-size: 24px;
+  }
+}
+.aca3{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join3.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca3 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca3 h1{
+    font-size: 24px;
+  }
+}
+.aca4{
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images/join4.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  color:white;
+}
+.aca4 h1{
+  color:white;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .aca4 h1{
+    font-size: 24px;
+  }
 }
 
 
-
-
-
-
-
-
-
+/* alumni page */
+.alumni{
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
 
 
 
@@ -402,7 +585,7 @@ font-weight: 700;
 
 /*----------Footer--------------*/
 .footer{
-  background-color: darkslateblue;
+  background-color: teal;
   width: 100%;
   text-align: center;
   padding: 30px 0;
