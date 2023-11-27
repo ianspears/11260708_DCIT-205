@@ -15,34 +15,18 @@ The various pages of the website that were created are;
 And 
 •	Prospective students page
 
-Photos and movies stored in different folders were used to construct every page on this website.  Enough links, such the one to the map and the C.S.S. file including all of their styles. Pages and registration are further features of the website that was made.
+Photos and videos stored in different folders were used to construct every page on this website.  Enough links, such the one to the map and the C.S.S. file including all of their styles. Pages and registration are further features of the website that was made.
  Throughout the period of creating this website, the timeline was regularly uploaded to a github repository that was ‘forked’ from Daquiver1/DCIT_205_IA, named 11260708_DCIT205.
 
 How to clone and set up the project.
 
-To clone and set up the project, the following files and folder should be all included in a parent folder of your select name preferably, 11260708_DCIT205;
-•	Index.html
-•	About.html
-•	Courses.html
-•	Blog.html 
-•	Contact us.html
-•	News and events.html
-•	Academics.html
-•	Alumni.html
-•	Faculty and staff.html
-And
-•	Prospective students page.html
-•	Styles.css
-folders that were included are;
-•	images(folder)
-•	videos(folder)
-• screenshots(folder)
+On GitHub.com, navigate to the main page of the repository.
+Above the list of files, click Code.
+To clone and open the repository with GitHub Desktop, click Open with GitHub Desktop.
+Follow the prompts in GitHub Desktop to complete the clone.
 
-note: the above are all case sensitive
-
-After putting all the above files and folders in to one ‘parent folder’ you can open the ‘index.html’ in website of your choosing, preferably ‘chrome’ or ‘edge’ and after that take you to the homepage of the website from where you will see the navigation links that have been linked to the other individual pages directly in the html file allowing ease of access as the links on the webpage will directly send you to their linked individual pages.
-
-
+here is the link to the project on github
+https://github.com/ianspears/11260708_DCIT205.git
 
 The Website was prepared by AWAUH IAN SPEARS - 11260708
 
